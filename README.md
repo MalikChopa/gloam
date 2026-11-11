@@ -1,6 +1,6 @@
 # GLOAM
 
-**Une lanterne, un essaim de lucioles, une nuit qui n'en finit pas.** Un jeu d'adresse et de sang-froid dans le navigateur : guide l'essaim à travers les ronces, frôle le danger pour monter ton combo, et tiens le plus longtemps possible.
+**Une lanterne, un essaim de lucioles, une nuit à traverser.** Un jeu d'adresse et de sang-froid dans le navigateur : guide l'essaim à travers les ronces, frôle le danger pour monter ton combo, et tiens le plus longtemps possible.
 
 ### ▶ [Jouer à GLOAM](https://malikchopa.github.io/gloam/)
 
