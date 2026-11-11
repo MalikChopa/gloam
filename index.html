@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1020">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="GLOAM">
+<meta name="description" content="GLOAM : guide un essaim de lucioles avec ta lanterne à travers la nuit.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GLOAM">
+<meta property="og:description" content="Guide un essaim de lucioles avec ta lanterne à travers la nuit. Un défi du jour, le même pour tous.">
+<meta property="og:image" content="https://malikchopa.github.io/gloam/icons/og.png">
+<meta property="og:url" content="https://malikchopa.github.io/gloam/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="gloam-api" content="off">
+<title>GLOAM</title>
+<link rel="stylesheet" href="style.css">
+<link rel="modulepreload" href="src/main.mjs">
+<link rel="modulepreload" href="src/sim/index.mjs">
+<link rel="modulepreload" href="src/sim/params.mjs">
+<link rel="modulepreload" href="src/sim/step.mjs">
+<link rel="modulepreload" href="src/sim/rng.mjs">
+<link rel="modulepreload" href="src/sim/swarm.mjs">
+<link rel="modulepreload" href="src/sim/hazards.mjs">
+<link rel="modulepreload" href="src/sim/trig.mjs">
+<link rel="modulepreload" href="src/sim/events.mjs">
+<link rel="modulepreload" href="src/sim/generator.mjs">
+<link rel="modulepreload" href="src/sim/bot.mjs">
+<link rel="modulepreload" href="src/sim/replay.mjs">
+<link rel="modulepreload" href="src/shared/flags.mjs">
+<link rel="modulepreload" href="src/shared/version.mjs">
+<link rel="modulepreload" href="src/shared/daily.mjs">
+<link rel="modulepreload" href="src/shared/biomes.mjs">
+<link rel="modulepreload" href="src/shared/skins.mjs">
+<link rel="modulepreload" href="src/shared/achievements.mjs">
+<link rel="modulepreload" href="src/shared/ghost.mjs">
+<link rel="modulepreload" href="src/shared/hint.mjs">
+<link rel="modulepreload" href="src/platform/loop.mjs">
+<link rel="modulepreload" href="src/platform/input.mjs">
+<link rel="modulepreload" href="src/platform/juice.mjs">
+<link rel="modulepreload" href="src/render/particles.mjs">
+<link rel="modulepreload" href="src/render/palette.mjs">
+<link rel="modulepreload" href="src/platform/audio.mjs">
+<link rel="modulepreload" href="src/platform/music.mjs">
+<link rel="modulepreload" href="src/platform/haptics.mjs">
+<link rel="modulepreload" href="src/platform/ghostrun.mjs">
+<link rel="modulepreload" href="src/platform/storage.mjs">
+<link rel="modulepreload" href="src/platform/share.mjs">
+<link rel="modulepreload" href="src/platform/i18n.mjs">
+<link rel="modulepreload" href="src/platform/net.mjs">
+<link rel="modulepreload" href="src/platform/a11y.mjs">
+<link rel="modulepreload" href="src/platform/pwa.mjs">
+<link rel="modulepreload" href="src/ui/screens.mjs">
+<link rel="modulepreload" href="src/render/renderer.mjs">
+<link rel="modulepreload" href="src/render/preview.mjs">
+<link rel="modulepreload" href="src/render/ghost.mjs">
+<link rel="modulepreload" href="src/render/sprites.mjs">
+<link rel="modulepreload" href="src/render/hud.mjs">
+<link rel="modulepreload" href="src/render/debug.mjs">
+</head>
+<body>
+<canvas id="scene" role="img"></canvas>
+<button id="flare-btn" type="button" hidden><span class="fb-core"></span></button>
+<button id="pause-btn" type="button" hidden><span class="bars" aria-hidden="true"></span></button>
+<div id="banner" hidden>INVINCIBLE (debug)</div>
+<div id="ui"></div>
+<noscript><p class="nojs">GLOAM a besoin de JavaScript. · GLOAM needs JavaScript.</p></noscript>
+<script type="module" src="src/main.mjs"></script>
+</body>
+</html>
