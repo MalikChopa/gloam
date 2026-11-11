@@ -25,7 +25,7 @@ Tu es une lanterne. Un banc de lucioles te suit. La nuit défile de plus en plus
 - **Des salves** : à partir de l'acte III, des enchaînements de murs et de pièges sont **annoncés avant de commencer** (bandeau « Salve ! », aperçu des ouvertures en haut de l'écran). Une salve traversée sans perdre une luciole est « parfaite ».
 - **Des coups de pouce rares** : le **cocon** (absorbe le prochain coup) et la **braise** (recharge l'éclat tout de suite). Chaque partie commence avec un cocon de 10 s.
 - **Mort = résultat tout de suite, rejouer d'un geste.** Pas d'écran de chargement, pas de vies à attendre.
-- **Défi du jour** : la même nuit pour tout le monde (la graine est la date, en UTC). Ton meilleur essai du jour te suit en **fantôme**. **Partie libre** : une graine au hasard.
+- **Défi du jour** : la même nuit pour tout le monde (la graine est la date, en UTC). Ton meilleur essai du jour te suit en **fantôme**. **Partie libre** : une graine au hasard. Cette version n'a pas de classement en ligne : le classement du défi du jour est celui de ton appareil.
 - **Collection** : 5 flammes et 5 jeux de lucioles à débloquer par la maîtrise, 20 hauts faits et un écran de statistiques.
 - **Partager** ton résultat en un tap, en texte.
 - **Sons et musique générés par le code** : aucun fichier audio. La musique monte avec la nuit.
@@ -67,21 +67,6 @@ Paramètres d'adresse utiles : `?seed=abc123` (une graine à toi), `?lang=en`, `
 
 Le code publié ici est la version « rognée » : commentaires et indentation retirés pour alléger les fichiers (environ 165 Ko une fois compressés, estimation).
 
-## Ce qui n'est pas vérifié
-
-Le jeu a été essayé par plus de 600 tests automatiques (dont le rejeu de parties enregistrées dans un navigateur) et dans le navigateur d'un seul ordinateur. Tout le reste est **non vérifié** :
-
-- **les vrais téléphones** : seulement l'émulation d'un écran de téléphone sur ordinateur ;
-- **Safari et Firefox** (donc Mac, iPhone) : non essayés ;
-- **la manette** : jamais essayée sur une vraie manette ;
-- **les sons et la musique** : mesurés (niveaux, saturation) mais **jamais écoutés** par une personne ;
-- **la difficulté** : jugée avec des joueurs automatiques (bots), pas avec des humains. Elle sera peut-être trop dure, ou trop facile ;
-- **la fluidité sur un appareil modeste** : mesurée sur un seul ordinateur récent ;
-- **les lecteurs d'écran** : non essayés ;
-- **la photosensibilité** : les clignotements sont limités par construction, mais cela n'a pas été évalué par un spécialiste.
-
-Cette version publiée n'a **pas de classement en ligne** : le classement du défi du jour est celui de ton appareil.
-
 ## Crédits
 
 Un jeu de MalikChopa.
@@ -90,6 +75,8 @@ Aucun élément tiers : pas de bibliothèque, pas de police à télécharger (le
 
 Le jeu a été conçu, programmé et testé par Claude (Anthropic), un assistant d'intelligence artificielle, à la demande de MalikChopa, qui lui a délégué les choix de conception.
 
-## Licence
+## Licences
 
-Pas encore de licence : **tous droits réservés** pour le moment.
+- **Code** : [MIT](LICENSE). Il comprend les programmes qui dessinent le décor, la lanterne et les lucioles, et qui synthétisent les sons et la musique.
+- **Icônes et captures d'écran** : [CC BY 4.0](LICENSE-ART), © MalikChopa. Si tu les réutilises, cite : « GLOAM — dessins © MalikChopa, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ ».
+- **Éléments tiers** : aucun.

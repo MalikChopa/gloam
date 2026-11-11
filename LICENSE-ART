@@ -1,0 +1,24 @@
+GLOAM - artwork license / licence des dessins
+=============================================
+
+The artwork of GLOAM is licensed under the Creative Commons
+Attribution 4.0 International license (CC BY 4.0).
+
+Les dessins de GLOAM sont sous licence Creative Commons
+Attribution 4.0 International (CC BY 4.0).
+
+Holder / Titulaire : MalikChopa
+
+Covered files / Fichiers couverts (and only these / et seulement ceux-ci) :
+
+  - icons/                       the app icons and the sharing image / les icônes de l'application
+                                 et l'image de partage
+  - docs/media/                  the screenshots / les captures d'écran
+
+Not covered / Non couverts : all the code (MIT, see LICENSE), including the
+programs that draw the scenery, the lantern, the fireflies and the brambles and
+that synthesise the sounds and the music (they are in src/).
+
+Attribution line to use / Mention d'attribution à utiliser :
+
+  GLOAM — dessins © MalikChopa, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
